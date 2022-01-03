@@ -25,4 +25,4 @@ optional arguments:
   
  ```
 
-NOTE: You can feed both plain text log file and compressed log files(.gzip, .bz2, .zip) as well. 
+NOTE: You can feed both plain text log files and compressed log files(.gzip, .bz2, .zip) as well. 
