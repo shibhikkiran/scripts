@@ -18,3 +18,11 @@ optional arguments:
   $ python3 ./hit_stats.py --files /var/log/access1.log,/var/log/access2.gzip --url-hits
   
  ```
+ 
+  ```
+  #2. Dump API hit stats from multiple files and ordered by date:
+  $ python3 ./hit_stats.py --files /var/log/access1.log,/var/log/access2.gzip --api-hits
+  
+ ```
+
+NOTE: You can feed both plain text log file and compressed log files(.gzip, .bz2, .zip) as well. 
